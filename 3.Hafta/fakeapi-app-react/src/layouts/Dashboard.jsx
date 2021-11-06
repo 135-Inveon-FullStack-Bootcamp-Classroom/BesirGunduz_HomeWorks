@@ -6,6 +6,7 @@ import UserList from "../pages/userList";
 function Dashboard() {
   return (
     <div>
+      {/* semantic-ui-react'da bir row 16 eşit parçaya bölünüyor. 4 ve 12 olarak ayırdım. */}
       <Grid>
         <Grid.Row>
           <Grid.Column width={4}>

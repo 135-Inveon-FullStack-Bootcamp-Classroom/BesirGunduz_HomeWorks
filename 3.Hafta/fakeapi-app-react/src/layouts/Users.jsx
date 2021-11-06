@@ -11,6 +11,7 @@ function Users() {
   });
   return (
     <div>
+      {/* sayfamın sol tarafında müşterileri listeledim */}
       <Menu pointing vertical>
         {users.map((user, index) => (
           <Menu.Item key={index} name={user.name} />

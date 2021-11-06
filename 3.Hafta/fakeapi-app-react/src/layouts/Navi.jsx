@@ -4,6 +4,7 @@ import { Button, Container, Menu } from "semantic-ui-react";
 function Navi() {
   return (
     <div>
+      {/* Sayfanın başında kullanılan menü */}
       <Menu inverted fixed="top">
         <Container>
           <Menu.Item name="Ana Sayfa" />

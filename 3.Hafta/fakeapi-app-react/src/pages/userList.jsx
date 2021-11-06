@@ -3,7 +3,7 @@ import { Table, Icon, Menu } from "semantic-ui-react";
 import UserService from "../services/UserService";
 
 function UserList() {
-  // hook
+  
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -13,6 +13,7 @@ function UserList() {
 
   return (
     <div>
+      {/* sayfanın sağ tarafında müşteri bilgilerini listeledim */}
       <Table celled>
         <Table.Header>
           <Table.Row>
