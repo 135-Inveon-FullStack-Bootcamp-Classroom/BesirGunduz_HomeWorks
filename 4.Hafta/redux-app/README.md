@@ -1,5 +1,5 @@
 Fake Api
--->  [Live Server](...)
+-->  [Live Server](https://youthful-gates-29a92a.netlify.app/)
 
 ### `npm install`
 
