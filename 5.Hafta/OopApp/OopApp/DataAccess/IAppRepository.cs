@@ -4,6 +4,7 @@ using System.Linq.Expressions;
 
 namespace OopApp.DataAccess
 {
+    // ortak alanlar
     public interface IAppRepository<TEntity>
     {
         List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter = null);

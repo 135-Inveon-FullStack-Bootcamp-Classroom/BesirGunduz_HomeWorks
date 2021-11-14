@@ -7,6 +7,7 @@ namespace OopApp
 {
     class Program
     {
+        // Solid'in O'su. Geliştirmeye açık, değişime kapalı
         static void Main(string[] args)
         {
             var cityManager = new CityManager(new EFCityDal());
