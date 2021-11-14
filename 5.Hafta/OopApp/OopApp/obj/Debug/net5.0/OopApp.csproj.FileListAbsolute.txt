@@ -1,0 +1,16 @@
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\bin\Debug\net5.0\OopApp.exe
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\bin\Debug\net5.0\OopApp.deps.json
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\bin\Debug\net5.0\OopApp.runtimeconfig.json
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\bin\Debug\net5.0\OopApp.runtimeconfig.dev.json
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\bin\Debug\net5.0\OopApp.dll
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\bin\Debug\net5.0\ref\OopApp.dll
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\bin\Debug\net5.0\OopApp.pdb
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.AssemblyInfoInputs.cache
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.AssemblyInfo.cs
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.csproj.CoreCompileInputs.cache
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.dll
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\ref\OopApp.dll
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.pdb
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.genruntimeconfig.cache
+C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.csproj.AssemblyReference.cache
