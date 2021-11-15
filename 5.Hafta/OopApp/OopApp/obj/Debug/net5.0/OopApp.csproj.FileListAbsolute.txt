@@ -13,4 +13,3 @@ C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debu
 C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\ref\OopApp.dll
 C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.pdb
 C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.genruntimeconfig.cache
-C:\Users\90531\source\repos\BesirGunduz_HomeWorks\5.Hafta\OopApp\OopApp\obj\Debug\net5.0\OopApp.csproj.AssemblyReference.cache
