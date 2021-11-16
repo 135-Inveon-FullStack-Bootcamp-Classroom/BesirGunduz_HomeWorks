@@ -1,6 +1,6 @@
 # Oop Demo
 
-* OOP'nin 4 Ana Prensibi(Encapsulation, Inheritence, Abstraction, Polymorphism)' ne uygun geliştirildi.
+* OOP ve SOLID prensiplerine uygun geliştirildi.
 * Uygulamada 3 farklı DB örneği kullanıldı(MSSQL,MYSQL,Oracle). Uygulamamız SOLID prensiplerine uygun olduğu için DB değiştirdiğimizde kodlarımızı değiştirmemiş olduk.
 
 
