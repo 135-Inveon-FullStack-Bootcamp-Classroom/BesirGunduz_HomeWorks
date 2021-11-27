@@ -5,3 +5,4 @@ Bootcamp Ödevleri
 ### 3 - fakeapi-app-react && calculator-app-react (Eklendi)
 ### 4 - redux-app (Eklendi)
 ### 5 - OopDemo (Eklendi)
+### 6 - MovieStore.API (Eklendi)
