@@ -11,7 +11,7 @@ namespace MovieStore.API.Entities
         public int Budget { get; set; }
         public int DirectorId { get; set; }
         public Director Director { get; set; }
-        public List<GenreMovie> GenreMovie { get; set; }
-        public List<ActorMovie> ActorMovie { get; set; }
+        public virtual ICollection<Genre> Genres { get; set; }
+        public virtual ICollection<Actor> Actors { get; set; }
     }
 }
