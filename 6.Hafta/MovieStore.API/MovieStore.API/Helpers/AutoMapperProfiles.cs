@@ -8,17 +8,17 @@ namespace MovieStore.API.Helpers
     {
         public AutoMapperProfiles()
         {
-            CreateMap<DirectorDto, Director>();
-            CreateMap<UpdateDirectorDto, Director>();
+            CreateMap<DirectorDto, Director>().ReverseMap();
+            CreateMap<UpdateDirectorDto, Director>().ReverseMap();
 
-            CreateMap<MovieDto, Movie>();
-            CreateMap<UpdateMovieDto, Movie>();
+            CreateMap<MovieDto, Movie>().ReverseMap();
+            CreateMap<UpdateMovieDto, Movie>().ReverseMap();
 
-            CreateMap<ActorDto, Actor>();
-            CreateMap<UpdateActorDto, Actor>();
+            CreateMap<ActorDto, Actor>().ReverseMap();
+            CreateMap<UpdateActorDto, Actor>().ReverseMap();
 
-            CreateMap<GenreDto, Genre>();
-            CreateMap<UpdateGenreDto, Genre>();
+            CreateMap<GenreDto, Genre>().ReverseMap();
+            CreateMap<UpdateGenreDto, Genre>().ReverseMap();
 
         }
     }
