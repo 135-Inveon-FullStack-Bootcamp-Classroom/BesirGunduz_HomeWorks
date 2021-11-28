@@ -8,7 +8,7 @@ namespace MovieStore.API.Entities
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Gender { get; set; }
-        public ICollection<Movie> Movies { get; set; }
+        public virtual ICollection<Movie> Movies { get; set; }
 
     }
 }
