@@ -46,7 +46,7 @@ namespace MovieStore.API.Data
         }
         public Movie GetMovieById(int movieId)
         {
-            var movie = _context.Movies.Include(m => m.Director).Include(m => m.GenreMovie).ThenInclude(m => m.Genre).Include(m => m.ActorMovie).ThenInclude(m => m.Actor).FirstOrDefault(d => d.Id == movieId);
+            var movie = _context.Movies.Include(a => a.Actors).Include(g => g.Genres).FirstOrDefault(d => d.Id == movieId);
             return movie;
         }
         public List<Movie> GetMovies()
@@ -56,7 +56,7 @@ namespace MovieStore.API.Data
         }
         public Actor GetActorById(int actorId)
         {
-            var actor = _context.Actors.Include(m => m.ActorMovie).ThenInclude(m => m.Movie).FirstOrDefault(d => d.Id == actorId);
+            var actor = _context.Actors.Include(m => m.Movies).FirstOrDefault(d => d.Id == actorId);
             return actor;
         }
         public List<Actor> GetActors()
@@ -66,7 +66,7 @@ namespace MovieStore.API.Data
         }
         public Genre GetGenreById(int genreId)
         {
-            var genre = _context.Genres.Include(m => m.GenreMovie).ThenInclude(m => m.Movie).FirstOrDefault(d => d.Id == genreId);
+            var genre = _context.Genres.Include(m => m.Movies).FirstOrDefault(d => d.Id == genreId);
             return genre;
         }
         public List<Genre> GetGenres()
