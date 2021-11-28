@@ -10,7 +10,7 @@ namespace MovieStore.API.Entities
         public string Description { get; set; }
         public int Budget { get; set; }
         public int DirectorId { get; set; }
-        public Director Director { get; set; }
+        public virtual Director Director { get; set; }
         public virtual ICollection<Genre> Genres { get; set; }
         public virtual ICollection<Actor> Actors { get; set; }
     }
