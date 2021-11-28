@@ -8,6 +8,9 @@ namespace MovieStore.API.Helpers
     {
         public AutoMapperProfiles()
         {
+            //CreateMap metodu ile entity ve dtoları eşleştirip mapliyoruz
+            //ReversMap komutu ise bu mappingin iki yönlü olduğunu bildiriyor.
+
             CreateMap<DirectorDto, Director>().ReverseMap();
             CreateMap<UpdateDirectorDto, Director>().ReverseMap();
 
