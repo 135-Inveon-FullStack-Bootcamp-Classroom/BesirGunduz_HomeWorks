@@ -2,15 +2,16 @@
 
 ## Kullanılan Teknolojiler
 
-* Code First/Entity Framework Core
-* MsSql
-* AutoMapper
+* Microsoft Sql Server
 * Asp.net Core Web Api
+* Code First/Entity Framework Core
+* AutoMapper
 * Repository Pattern
 
 ## DataBase İlişki Modeli
 
-![sekil2](https://user-images.githubusercontent.com/25709400/143671344-1f0ec93c-7ef0-4f2b-b95e-30d88cbe4647.png)
+![image](https://user-images.githubusercontent.com/25709400/143785158-909def8f-64d3-4516-9776-3e849fec7254.png)
+
 
 ## API
 
