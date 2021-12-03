@@ -2,7 +2,8 @@
 
 namespace FootballManager.API.Services.Abstract
 {
-    public interface IFootballerService : IBaseService<Footballer>
+    public interface IManagerService : IBaseService<Manager>
     {
+        
     }
 }

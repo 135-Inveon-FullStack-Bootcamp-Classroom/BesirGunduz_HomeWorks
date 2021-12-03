@@ -1,15 +1,9 @@
 ﻿using FootballManager.API.Entities;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace FootballManager.API.Services.Abstract
 {
-    public interface INationalTeamService
+    public interface INationalTeamService:IBaseService<NationalTeam>
     {
-        public Task<IEnumerable<NationalTeam>> GetAllAsync();
-        public Task<NationalTeam> GetAsync(int id);
-        public Task UpdateAsync(int id, NationalTeam nationalTeam);
-        public Task<NationalTeam> CreateAsync(NationalTeam nationalTeam);
-        public Task DeleteAsync(int id);
+       
     }
 }
