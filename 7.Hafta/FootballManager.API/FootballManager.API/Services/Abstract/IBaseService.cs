@@ -7,8 +7,8 @@ namespace FootballManager.API.Services.Abstract
     {
         Task<IEnumerable<TEntity>> GetAllAsync();
         Task<TEntity> GetAsync(int id);
-        TEntity Add(TEntity coach);
-        TEntity Update(TEntity coach);
-        void Delete(TEntity coach);
+        TEntity Add(TEntity entity);
+        TEntity Update(TEntity entity);
+        void Delete(TEntity entity);
     }
 }
