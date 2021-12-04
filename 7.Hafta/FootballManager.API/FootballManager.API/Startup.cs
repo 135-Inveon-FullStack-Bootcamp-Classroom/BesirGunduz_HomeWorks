@@ -1,4 +1,7 @@
 using FootballManager.API.Data;
+using FootballManager.API.Services.Abstract;
+using FootballManager.API.Services.Concrete;
+using FootballManager.API.UnitOfWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +23,16 @@ namespace FootballManager.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+            //DI
+            services.AddScoped<IUnitOfWork, UnitOfWork.UnitOfWork>();
+            services.AddScoped<ICoachService, CoachService>();
+            services.AddScoped<IFootballerService, FootballerService>();
+            services.AddScoped<IManagementPositionService, ManagementPositionService>();
+            services.AddScoped<IManagerService, ManagerService>();
+            services.AddScoped<INationalTeamService, NationalTeamService>();
+            services.AddScoped<ITacticService, TacticService>();
+            services.AddScoped<ITeamService, TeamService>();
+
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -28,6 +41,7 @@ namespace FootballManager.API
             });
             //DB Connection
             services.AddDbContext<EfContext>(x => x.UseSqlServer(Configuration.GetConnectionString("ConnStr")));
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

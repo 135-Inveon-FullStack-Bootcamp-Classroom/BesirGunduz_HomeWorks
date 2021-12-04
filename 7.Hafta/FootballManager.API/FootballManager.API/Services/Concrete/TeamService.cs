@@ -46,5 +46,10 @@ namespace FootballManager.API.Services.Concrete
             var team = await _context.Teams.FirstOrDefaultAsync(x => x.Id == id);
             return team;
         }
+
+        public async Task<IEnumerable<Team>> GetAllWithFootballersAsync()
+        {
+            return await _context.Teams.Include(p => p.Footballers).ToListAsync();
+        }
     }
 }
