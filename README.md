@@ -6,3 +6,4 @@ Bootcamp Ödevleri
 ### 4 - redux-app (Eklendi)
 ### 5 - OopDemo (Eklendi)
 ### 6 - MovieStore.API (Eklendi)
+### 7 - FootballManager.API (Eklendi)
